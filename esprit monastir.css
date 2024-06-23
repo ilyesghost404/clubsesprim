@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg,white ,red );
+
+}
+.login{
+    background-color: rgba(248, 57, 57, 0.663);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    min-width: 900px;
+    max-height: 700px;
+    min-height: 600px;
+    box-shadow: 5px 5px 30px 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    translate: 50% 30%;
+    transition: all .42s ease;
+    animation: moveUp .42s ease forwards;
+}
+.logine{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    min-width: 900px;
+    max-height: 700px;
+    min-height: 600px;
+    box-shadow: 5px 5px 30px 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    translate: 50% 30%;
+    transition: all .42s ease;
+    animation: moveUp .42s ease forwards;
+}
+.login:hover{
+    transform: scale(1.05);
+    
+}
+.email{
+    background:transparent;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    transition: all .42s ease;
+    border-bottom: 2px solid;
+} 
+.email:hover{
+    transform: scale(1.1);
+    border-bottom: 2px solid;
+}
+.email:focus{
+    border-bottom: 2px solid;
+}
+.password{ 
+    background:transparent;
+    width: 400px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    transition: all .42s ease;
+    border-bottom: 2px solid;
+    
+}
+.password:hover{
+    transform: scale(1.1);
+    border-bottom: 2px solid;
+}
+.password:focus{
+    border-bottom: 2px solid;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+
+}
+::placeholder{
+    color: rgb(40, 39, 39);
+}
+.button{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    translate: 75px;
+    border: 16px;
+    border-radius: 50px;
+    color: aliceblue;
+    background-color:rgb(213, 7, 7);
+    transition: all .42s ease;
+}
+.button:hover{
+    transform: scale(1.1);
+    color: rgb(186, 2, 2);
+    background-color:rgb(246, 175, 175);
+    border: 2px solid;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.logoin{
+    width: 300x;
+    height: 300px;
+}
+.Espace{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+}
+h2{
+    margin-right:70px;
+}
+.imge{
+   width: 75px;
+   height: 75px;
+   translate: 30px;
+}
+.edt{
+    transition: all .42s ease;
+
+}
+.edt:hover{
+    transform: scale(1.1);
+}
+.ens{
+    transition: all .42s ease;
+
+}
+.ens:hover{
+    transform: scale(1.1);
+}
+@keyframes moveUp {
+    0% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
